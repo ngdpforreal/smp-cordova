@@ -1,0 +1,44 @@
+@import 'tailwindcss';
+
+@theme {
+    /* Definisi Font */
+    --font-sans: 'Figtree', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+    --font-serif: 'Merriweather', ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+    /* Definisi Warna Custom (Yayasan & Gold) */
+    --color-yayasan: #800000;
+    --color-yayasan-light: #A52A2A;
+    --color-yayasan-dark: #5a0000;
+    
+    --color-gold: #D4AF37;
+    --color-gold-light: #F4C430;
+}
+
+/* Custom CSS untuk mempercantik Scrollbar & Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F9FAFB;
+    color: #111827;
+}
+
+/* Scrollbar Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #D4AF37 #f1f1f1;
+}
+
+/* Scrollbar Chrome/Edge/Safari */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #800000;
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;
+}
